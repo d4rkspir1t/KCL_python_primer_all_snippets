@@ -188,12 +188,15 @@ if user_score < computer_score:
 else:
     print('Doing alright')
 
+# Try the following with both user_scores by swapping the commented line.
 user_score = 3
 # user_score = 4
 if user_score <= computer_score:
     print('Play better')
 else:
     print('Doing alright')
+
+# Here is an example of a ternary operator doing the above, but in one line.
 print('Play better') if user_score <= computer_score else print('Doing alright')
 
 user_score = 4
@@ -256,6 +259,7 @@ count //= multiplier  # integer division - results in an integer
 print('Count is now:', count)
 
 count = 3
+multiplier = 3
 count **= multiplier  # power
 print('Count is now:', count)
 count %= 7  # remainder
